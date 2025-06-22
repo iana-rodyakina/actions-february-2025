@@ -13,3 +13,5 @@ jobs:
       uses: actions/checkout@v4
       with:
         repository: iana-rodyakina/actions-terraform
+
+    -run: ls
