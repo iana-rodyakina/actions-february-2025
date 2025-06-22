@@ -14,5 +14,13 @@ jobs:
       with:
         repository: iana-rodyakina/actions-terraform
 
-    - name: Terraform init
+    - name: Download Terraform
+      uses: hashicorp/setup-terraform@v3
+      with:
+        terraform_version: "1.12.2"
+
+    - name: Terraform Init
       run: terraform init
+
+    - name: Terraform Apply
+      run: terraform apply    
