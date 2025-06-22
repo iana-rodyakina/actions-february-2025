@@ -14,4 +14,4 @@ jobs:
       with:
         repository: iana-rodyakina/actions-terraform
 
-    -run: ls
+    - run: ls
