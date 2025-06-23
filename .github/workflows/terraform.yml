@@ -22,7 +22,7 @@ on:
         required: true
 
       instance_type:
-        description: "Provide instance type"
+        description: 'Provide instance type'
         required: true
         defoult: "t2.micro"
 
