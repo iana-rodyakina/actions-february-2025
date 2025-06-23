@@ -6,7 +6,7 @@ on:
       action:
         description: 'Terraform action to perform'
         required: true
-        defoult: 'apply'
+        default: 'apply'
         type: choice
         options:
           - apply
@@ -15,7 +15,7 @@ on:
       region:
         description: 'Provide region'
         required: true
-        defoult: 'us-east-1'
+        default: 'us-east-1'
 
       ami_id:
         description: "Enter ami id"
@@ -24,7 +24,7 @@ on:
       instance_type:
         description: 'Provide instance type'
         required: true
-        defoult: "t2.micro"
+        default: "t2.micro"
 
 jobs:
   deploy:
